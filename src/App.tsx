@@ -30,8 +30,6 @@ function App() {
             {countdown.seconds()} Second{countdown.seconds() > 1 && "s"} until
             school.
           </h1>
-
-          <h1>Go to school! It already started.</h1>
         </div>
       </>
     );
