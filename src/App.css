@@ -1,0 +1,17 @@
+body
+{
+  background-color: black;
+}
+
+h1
+{
+  text-align: center;
+  font-family: 'gupter';
+  color:darkseagreen;
+  margin-top: 25%;
+}
+
+@font-face {
+  font-family: 'gupter';
+  src: url("./assets/Gupter/Gupter-Regular.ttf");
+}
