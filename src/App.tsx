@@ -3,7 +3,7 @@ import "./App.css";
 import moment from "moment";
 
 function App() {
-  let schoolStart = new Date(2024, 8, 5, 7, 30).getTime();
+  let schoolStart = new Date(2024, 8, 4, 7, 30).getTime();
   let currentTime = Date.now();
   let [countdown, setCountdown] = useState(
     moment.duration(schoolStart - currentTime)
