@@ -23,11 +23,11 @@ function App() {
       <>
         <div>
           <h1>
-            {countdown.months()} Month{countdown.months() === 1 && "s"},{" "}
-            {countdown.days()} Day{countdown.days() === 1 && "s"},{" "}
-            {countdown.hours()} Hour{countdown.hours() === 1 && "s"},{" "}
-            {countdown.minutes()} Minute{countdown.minutes() === 1 && "s"}, and{" "}
-            {countdown.seconds()} Second{countdown.seconds() === 1 && "s"} until
+            {countdown.months()} Month{countdown.months() != 1 && "s"},{" "}
+            {countdown.days()} Day{countdown.days() != 1 && "s"},{" "}
+            {countdown.hours()} Hour{countdown.hours() != 1 && "s"},{" "}
+            {countdown.minutes()} Minute{countdown.minutes() != 1 && "s"}, and{" "}
+            {countdown.seconds()} Second{countdown.seconds() != 1 && "s"} until
             school.
           </h1>
         </div>
