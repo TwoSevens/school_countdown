@@ -36,8 +36,15 @@ function App() {
   } else {
     return (
       <>
-        <div>
-          <h1>Go to school! It already started.</h1>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <img src="school_countdown/crying-cry.gif" />
+          <h1 style={{ textAlign: "center" }}>School has already started.</h1>
         </div>
       </>
     );
